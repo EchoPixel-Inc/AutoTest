@@ -1091,11 +1091,9 @@
                 <tr>
                     <td>
                         <i class="field">
-                            Computer/Endpoint
+                            Test PC
                             <b>
-                                <xsl:call-template name="break">
-                                    <xsl:with-param name="text" select="@host" />
-                                </xsl:call-template>
+                            	Precision 5820 / Quadro P4000
                             </b>
                         </i>
                     </td>
@@ -1111,9 +1109,10 @@
                 <tr>
                     <td>
                         <i class="field">
-                            Username
+                            Display
                             <b>
-                                <xsl:value-of select="@user" />
+                            	zSpace 200
+                                <xsl:value-of select="@display" />
                             </b>
                         </i>
                     </td>

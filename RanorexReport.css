@@ -1598,16 +1598,16 @@ h3#testCasesHeader {
     margin-left: 15px;
 }
 
-/* Uncomment to customize your report */
-        body {
-            background-color: #EEEEEE;
-            background-image: url(YourBackgroundImage.png);
-            background-position: 0;
-       }
 
-        #header-top #logo span {
-            height: 80px;
-            width: 246px;
-            background-image: url(EchoPixel_Logo_Ranorex.png);
-            background-position: 0;
-        }
+body {
+	background-color: #EEEEEE;
+	background-image: url(YourBackgroundImage.png);
+    background-position: 0;
+}
+
+#header-top #logo span {
+	height: 80px;
+	width: 246px;
+	background-image: url(E:/Tests/VTP-baseX/VTP-baseX/VTP-baseX_Report/assets/epx_logo.png);
+	background-position: 0;
+}
