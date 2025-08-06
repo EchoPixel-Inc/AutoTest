@@ -1608,6 +1608,7 @@ body {
 #header-top #logo span {
 	height: 80px;
 	width: 246px;
-	background-image: url(E:/Tests/VTP-baseX/VTP-baseX/VTP-baseX_Report/assets/epx_logo.png);
+	background-image: url(epx_logo.png);
 	background-position: 0;
 }
+
