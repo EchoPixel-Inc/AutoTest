@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Directory</title>
+    <style>
+        body { font-family: sans-serif; line-height: 1.6; max-width: 800px; margin: auto; padding: 20px; }
+        ul { list-style-type: none; padding: 0; }
+        li { margin-bottom: 10px; }
+        a { text-decoration: none; color: #007bff; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+
+    <h1>Test Reports Finalized</h1>
+    <ul id="file-list">
+        </ul>
+
+    <script>
+        // --- STEP 1: MANUALLY EDIT THIS LIST OF FILENAMES ---
+        // Add the names of all the HTML files you want to list.
+        // Make sure to include the file extension (.html).
+        const files = [
+            'VTP_baseX_20250804_123510.html'
+        ];
+
+        // --- STEP 2: DO NOT EDIT BELOW THIS LINE ---
+        // This script will automatically generate the list.
+        
+        const fileListElement = document.getElementById('file-list');
+
+        files.forEach(filename => {
+            const listItem = document.createElement('li');
+            const link = document.createElement('a');
+            
+            link.href = filename;
+            link.textContent = filename;
+            
+            listItem.appendChild(link);
+            fileListElement.appendChild(listItem);
+        });
+    </script>
+
+</body>
+</html>
